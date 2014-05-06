@@ -4,7 +4,7 @@ coalliance_foxml_migration
 migrating from Islandora 6 to Islandora 7
 
 
-A drush script to ingest a FoxML record exported from Islandora 6 into Islandora 7 using Tuque.
+A broken drush script to ingest a FoxML record exported from Islandora 6 into Islandora 7 using Tuque.
 
 Dependencies
 ------------
