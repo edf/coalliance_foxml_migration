@@ -24,3 +24,7 @@ use "drush ws --tail --full" to tail the watchdog logs
 
 Usage
 ----
+
+
+
+Thanks to: https://github.com/Islandora/islandora/wiki/Working-With-Fedora-Objects-Programmatically-Via-Tuque
