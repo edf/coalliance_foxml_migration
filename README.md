@@ -6,6 +6,8 @@ migrating from Islandora 6 to Islandora 7
 
 A broken drush script to ingest a FoxML record exported from Islandora 6 into Islandora 7 using Tuque.
 
+see error at https://gist.github.com/edf/12a8fda112a51661bba7
+
 Dependencies
 ------------
 The Islandora module.
