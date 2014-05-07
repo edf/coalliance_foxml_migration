@@ -4,9 +4,9 @@ coalliance_foxml_migration
 migrating from Islandora 6 to Islandora 7
 
 
-A broken drush script to ingest a FoxML record exported from Islandora 6 into Islandora 7 using Tuque.
+A drush script to ingest a FoxML record exported from Islandora 6 into Islandora 7 using Tuque.
 
-see error at https://gist.github.com/edf/12a8fda112a51661bba7
+was broken because of access restrctions  ( error at https://gist.github.com/edf/12a8fda112a51661bba7 )
 
 Dependencies
 ------------
@@ -26,6 +26,10 @@ use "drush ws --tail --full" to tail the watchdog logs
 
 Usage
 ----
+
+drush -u 1 migrate_foxml2 ~/wyu_9306.foxml wyu wyu:9306
+
+drush foxml_save_pids_for_namespace wyu
 
 
 
